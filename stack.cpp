@@ -29,7 +29,6 @@ class stack{
 			delete temp;
 			size--;
 		}
-		// size
 		int size(){
 			return size;
 		}
