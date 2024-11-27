@@ -9,7 +9,6 @@ class Node{
 			next=NULL;
 		}
 };
-
 class stack{
 	public:
 		int size;
@@ -36,5 +35,4 @@ class stack{
 		}
 };
 int main(){
-	
 }
