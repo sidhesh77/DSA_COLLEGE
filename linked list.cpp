@@ -13,14 +13,12 @@ struct node
     }
     void insertionAthead();
 };
-
 void insertionAthead(node * head, int data)
 {
 
     node *newnode = new node(data);
     newnode->next = head;
     head=newnode;
-
 }
 void insertionAtGiven(node* head, int position, int data)
 {
@@ -30,7 +28,6 @@ void insertionAtGiven(node* head, int position, int data)
     {
         value++;
     }
-    
     node * givennode = head;
     if (position==1)
     {
@@ -48,9 +45,7 @@ void insertionAtGiven(node* head, int position, int data)
         node *newnode = new node(data);
         newnode->next = givennode->next;
         givennode->next =newnode;
-        
     }
-    
 }
 void printing(node * head )
 {
