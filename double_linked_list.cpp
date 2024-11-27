@@ -27,12 +27,8 @@ class dll{
 			}
 			temp->prev->next=temp->next;
 			temp->next->prev=temp->prev;
-			
-			
 		}
 };
 int main(){
 	dll d(3);
-	
-	
 }
